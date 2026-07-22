@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Hoon Deepu | Hindi Poetry</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Noto+Serif+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0d0d0d;
+color:white;
+overflow-x:hidden;
+}
+
+header{
+padding:25px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.75);
+position:fixed;
+width:100%;
+top:0;
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#d4af37;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:30px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#d4af37;
+}
+
+.hero{
+
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url('https://images.unsplash.com/photo-1510936111840-65e151ad71bb?auto=format&fit=crop&w=1600&q=80');
+
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+
+font-size:70px;
+color:#d4af37;
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+font-size:28px;
+font-family:'Noto Serif Devanagari',serif;
+margin-bottom:35px;
+
+}
+
+.btn{
+
+display:inline-block;
+padding:15px 40px;
+background:#d4af37;
+color:black;
+text-decoration:none;
+font-weight:bold;
+border-radius:40px;
+transition:.3s;
+
+}
+
+.btn:hover{
+
+transform:scale(1.08);
+
+}
+
+section{
+
+padding:90px 10%;
+
+}
+
+h2{
+
+text-align:center;
+font-size:42px;
+color:#d4af37;
+margin-bottom:50px;
+
+}
+
+.cards{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+
+}
+
+.card{
+
+background:#171717;
+padding:35px;
+border-radius:18px;
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.card h3{
+
+color:#d4af37;
+margin-bottom:15px;
+
+}
+
+.quote{
+
+background:#111;
+text-align:center;
+padding:80px 10%;
+
+}
+
+.quote p{
+
+font-size:30px;
+font-family:'Noto Serif Devanagari',serif;
+line-height:1.8;
+
+}
+
+footer{
+
+background:#000;
+padding:30px;
+text-align:center;
+color:#aaa;
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:45px;
+
+}
+
+.hero p{
+
+font-size:22px;
+
+}
+
+header{
+
+flex-direction:column;
+
+}
+
+nav{
+
+margin-top:15px;
+
+}
+
+nav a{
+
+margin:10px;
+
+}
+
+}
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Main Hoon Deepu</div>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">Shayari</a>
+<a href="#">Ghazals</a>
+<a href="#">Quotes</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>मैं हूँ दीपु</h1>
+
+<p>लफ़्ज़ नहीं... एहसास लिखता हूँ।</p>
+
+<a href="#" class="btn">Read Poetry</a>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>मेरी दुनिया</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>✍️ Shayari</h3>
+
+<p>दिल से निकले अल्फ़ाज़ जो सीधे दिल तक पहुँचें।</p>
+
+</div>
+
+<div class="card">
+
+<h3>📖 Ghazals</h3>
+
+<p>क्लासिकल उर्दू बहर में लिखी गई ग़ज़लें।</p>
+
+</div>
+
+<div class="card">
+
+<h3>💭 Quotes</h3>
+
+<p>ज़िंदगी, मोहब्बत और तजुर्बों की बातें।</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="quote">
+
+<h2>आज का शेर</h2>
+
+<p>
+
+"तेरे जाने से सिर्फ़ तू ही नहीं खोया,<br>
+मैं अपने ही वजूद से बिछड़ बैठा हूँ।"
+
+</p>
+
+</section>
+
+<footer>
+
+© 2026 Main Hoon Deepu • All Rights Reserved
+
+</footer>
+
+</body>
+
+</html>
